@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+  <script>
+    // To create an array using literal way
+    // let courseDetails =['front-end','back-end','full-stack'];//array
+    // let course =('frontend','backend','fullstack');//object
+    // print:
+   // to know the data type
+    // console.log(typeof courseDetails);//object
+    // console.log(typeof course);//object
+  // To access an element from an array-1
+
+    // console.log(courseDetails[1]);
+    //To access an element from an array-2
+
+  // let x = course[1];
+  //  conosle.log(x);
+  //  let studentNames =['Anuhya','kavya','madhuri','manish'];
+  //  console.log(courseDetails[0]);
+  //  console.log(courseDetails[1]);
+  //  console.log(courseDetails[2]);
+ //  console.log(courseDetails[3]);
+  //  console.log(courseDetails[4]);
+    //for loop
+    // for(let i=0;i<studentNames.lenght;i++){
+      // console.log(studentName[i]);
+  
+    
+  //  Array methods:
+  // push():
+  let fruit =['apple','banana','grape','orange'];
+  console.log(fruit);
+  fruit.push("mango");
+  console.log(fruit);
+
+  // pop():
+  fruit.pop();
+  console.log(fruit);
+
+  
+  // shift();
+  fruit.shift();
+  console.log(fruit);
+
+  // unshift();
+  fruit.unshift("radish");
+  console.log(fruit);
+
+  // splice(from the index,count,delete);
+  fruit.splice(1,2,'beet',"tomato");
+  console.log(fruit);
+
+
+  //slice();
+ console.log(fruit.slice(1,3));
+  
+
+
+  //concat
+  let a=[1,2,3];
+  let b = [4,5,6];
+  let c =a.concat(b);
+  console.log(c);
+
+  //includes();
+ 
+
+  console.log(fruit.includes('onion'));
+  console.log(fruit);
+
+  //indexof();
+  console.log(fruit.indexOf('beet'));
+
+  //reverse();
+  console.log(fruit.reverse());
+
+  //join();
+  console.log(fruit.join());
+
+
+  </script>  
+</body>
+</html>
